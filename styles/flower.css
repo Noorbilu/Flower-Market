@@ -1,0 +1,105 @@
+.dark1{
+    color: #000000;
+}
+.dark2{
+    color: #252432 ;
+}
+.dark3{
+    color: #8987A1;
+}
+.orange{
+    color: #E95A08;
+}
+.header{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-image:;
+    border-bottom: 1px solid #ddd;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+.head a{
+    text-decoration: none;
+}
+.head li{
+    list-style: none;
+    padding: 0 22px;
+}
+.grid-background {
+  background-color:whitesmoke;
+  background-image: 
+    repeating-linear-gradient(
+      to right, 
+      #f7a7a7 0px, 
+      #f7a7a7 1px, 
+      transparent 1px, 
+      transparent 10px
+    ),
+    repeating-linear-gradient(
+      to bottom, 
+      #f7a7a7 0px, 
+      #f7a7a7 1px, 
+      transparent 1px, 
+      transparent 10px
+    );
+}
+.h1{
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 1;
+    margin: 0;
+}
+.Header{
+    text-align: left;
+    width: 1140px;
+}
+
+/* main */
+.main{
+    width: 1140px;
+}
+.h2{
+    font-weight: bold;
+    font-size: 45px;
+}
+.flower-vase{
+    text-align: center;
+}
+.square-collage{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 7px;
+}
+.usd{
+    font-weight: 900;
+    font-size: 22px;
+}
+.button{
+    color: #FFFFFF;
+    background-color: #E95A08;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 26px;
+}
+.store{
+    display: flex;
+}
+.store img{
+    padding:140px 0px 80px 20px;
+    
+}
+.badge{
+    width: 280px;
+    height: 280px;
+    margin-left: -200px;
+    margin-top: -130px;
+}
