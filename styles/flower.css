@@ -10,6 +10,13 @@
 .orange{
     color: #E95A08;
 }
+.red{
+    max-width: 1140px;
+    margin:30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .header{
     max-width: 1140px;
     margin:30px auto;
@@ -40,26 +47,40 @@ nav ul{
     margin: 0;
 }
 .Header{
+    max-width: 1140px;
+    margin:30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
     text-align: left;
     width: 1140px;
 }
 
 /* main */
-.main{
-    max-width: 1140px;
-    margin:30px auto;
-}
+
 .h2{
     font-weight: bold;
     font-size: 45px;
 }
 .flower-vase{
+    max-width: 1140px;
+    margin:30px auto;
     text-align: center;
 }
 .square-collage{
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     gap: 7px;
+}
+.flower-card{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.flower-card img{
+    width: 100%;
+    height: auto;
 }
 .usd{
     font-weight: 900;
@@ -72,6 +93,10 @@ nav ul{
     font-weight: 600;
     font-size: 16px;
     padding: 10px 26px;
+}
+.flower-store{
+    max-width: 1140px;
+    margin:30px auto;
 }
 .store{
     display: flex;
@@ -89,6 +114,10 @@ nav ul{
 }
 /* latest-deals */
 
+.latest-deals{
+    max-width: 1140px;
+    margin:30px auto;
+}
 .img-bloom {
   display: flex;
   gap: 20px;
@@ -102,6 +131,7 @@ nav ul{
   flex-direction: column;
   gap: 20px;
 }
+
 .card1, .card2, .card3 {
   background-size: cover;
   background-position: center;
@@ -149,56 +179,140 @@ nav ul{
     display: flex;
     justify-content: center;
  }
+/* footer */
+.footer{
+    max-width: 1140px;
+    padding: 20px 60px;
+    margin:30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer li{
+    list-style: none;
+}
 
 
 
 
 
 
-
-
-
+/* responsive part */
 @media screen and (max-width: 576px) {
   
-   .header, .Header, .main, .head nav ul ,.img-bloom{
+ .Header, 
+ .main, 
+ .head nav ul ,
+ .img-bloom ,
+ .footer{
 
     flex-direction: column;
     align-items: flex-start;
-  }
-
+ }
+ 
   .header img {
-    max-width: 150px;
-  }
+    max-width: 120px;
+ }
 
   .head nav ul {
+    flex-direction: column;
     gap: 10px;
+    align-items: flex-end;
   }
+  
   .hide{
     display: none;
   }
 
   .Header {
     gap: 20px;
+    padding: 20px;
   }
-
-  .Header > div {
+  .Header p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+ 
+   .Header, 
+   .Header > div ,
+   .mailbox ,
+   .button,  
+   .mailbox input ,
+   .footer > div {
     width: 100%;
   }
 
-  .Header img ,.store img{
+  .Header img ,.store img
+  {
     max-width: 100%;
+    height: auto;
   }
   
+ 
   .square-collage {
     grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    gap: 15px;
+  }
+     
+  .square-collage div{
+    text-align: center;
+  }
+  .flower-card{
+    font-size: 1rem;
+    margin: 0 auto;
   }
 
+  .side-images  {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+  }
   .store {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 20px;
   }
-
+  .flower-store{
+    flex-direction: column;
+  }
   .badge {
     display: none;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .card3 {
+    height: 200px;
+  }
+  .coco {
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .join-bunch {
+    font-size: 30px;
+    padding-top: 0;
+    margin-bottom: 20px;
+  }
+  .footer {
+    gap: 20px;
+    padding: 20px;
+  }
+
+
+  .footer ul {
+    padding-left: 0;
+  }
+  .footer img {
+    max-width: 100px;
   }
 }
