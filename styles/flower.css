@@ -103,3 +103,57 @@ nav ul{
     margin-left: -200px;
     margin-top: -130px;
 }
+/* latest-deals */
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  
+   .header, .Header, .main, .head nav ul ,.img-bloom{
+
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header img {
+    max-width: 150px;
+  }
+
+  .head nav ul {
+    gap: 10px;
+  }
+  .hide{
+    display: none;
+  }
+
+  .Header {
+    gap: 20px;
+  }
+
+  .Header > div {
+    width: 100%;
+  }
+
+  .Header img ,.store img{
+    max-width: 100%;
+  }
+  
+  .square-collage {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .store {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .badge {
+    display: none;
+  }
+}
