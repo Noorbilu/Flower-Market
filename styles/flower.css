@@ -125,6 +125,30 @@ nav ul{
     height: 335px; 
     width: 530px;
  }
+ /* join-bunch */
+
+
+ .coco{
+    background-image: url(../images/news-letter-bg.png);
+    max-width: 1440px;
+    height: 533px;
+    margin: 30px auto;
+    margin-top: 120px;
+    text-align: center;
+    justify-content: center;
+
+ }
+ .join-bunch{
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 200px;
+ }
+ .mailbox{
+    border: none;
+    display: flex;
+    justify-content: center;
+ }
 
 
 
