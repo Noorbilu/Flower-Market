@@ -75,10 +75,11 @@ nav ul{
 }
 .store{
     display: flex;
-}
-.store img{
-    padding:140px 0px 80px 20px;
     
+}
+
+.store img{
+    padding:140px 0px 80px 0px;
 }
 .badge{
     width: 280px;
@@ -108,6 +109,9 @@ nav ul{
   color: white;
   padding: 20px;
   
+}
+.shop{
+    text-decoration: underline;
 }
 .card1 {  
     height: 140px; 
