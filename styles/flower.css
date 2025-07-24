@@ -212,6 +212,7 @@ nav ul{
  
   .header img {
     max-width: 120px;
+    
  }
 
   .head nav ul {
@@ -225,6 +226,7 @@ nav ul{
   }
 
   .Header {
+    flex-direction: column-reverse;
     gap: 20px;
     padding: 20px;
   }
