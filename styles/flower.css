@@ -192,6 +192,11 @@ nav ul{
     list-style: none;
 }
 
+.icon{
+    display: flex;
+    gap:24px;
+  }
+
 
 
 
@@ -214,8 +219,11 @@ nav ul{
     max-width: 120px;
     
   }
+  .header{
+    padding: 20px 10px;
+  }
   .logo{
-    padding: 20px;
+    padding-left: 20px;
   }
   
   .img-bloom{
@@ -313,11 +321,9 @@ nav ul{
     margin-bottom: 20px;
   }
   .footer {
-    gap: 20px;
     padding: 20px;
   }
-
-
+  
   .footer ul {
     padding-left: 0;
   }
